@@ -1,4 +1,33 @@
-# vijayakannan-m.github.io
+# Vijayakannan M - Portfolio Website
+
+Welcome to my professional portfolio website! This is a multipage GitHub Pages site showcasing my work as an IT professional specializing in automation and infrastructure management.
+
+🌐 **Live Site**: [https://vijayakannan-m.github.io](https://vijayakannan-m.github.io)
+
+## Website Structure
+
+### Pages
+- **Home** (`index.html`) - Professional introduction and featured projects
+- **About** (`about.html`) - Background, skills, and achievements
+- **Projects** (`projects.html`) - Detailed project showcase
+- **Contact** (`contact.html`) - Contact information and form
+
+### Features
+- 📱 Fully responsive design
+- 🎨 Modern, professional UI/UX
+- ⚡ Fast loading and optimized
+- 🔍 SEO-friendly structure
+- 📧 Contact form functionality
+- 🌙 Smooth animations and interactions
+
+### Technologies Used
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Modern styling with flexbox and grid
+- **JavaScript** - Interactive features and form handling
+- **Font Awesome** - Professional icons
+- **GitHub Pages** - Hosting and deployment
+
+## Featured Project
 
 # [precheck.ps1](https://github.com/Vijayakannan-M/vijayakannan-m.github.io/blob/main/precheck-script/precheck.ps1)
 

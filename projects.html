@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Vijayakannan M</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Vijayakannan M</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Automation solutions and infrastructure management tools</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <h3>VMware ESXi Precheck Automation</h3>
+                            <span class="project-status">Featured</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                Comprehensive PowerShell automation script for VMware environments that streamlines 
+                                the process of connecting to vCenter, managing ESXi hosts, and configuring HPE iLO 
+                                application accounts with automated credential management.
+                            </p>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Interactive credential management for vCenter, ESXi, and iLO</li>
+                                <li>Automated VMware PowerCLI integration</li>
+                                <li>SSH-based command execution on ESXi hosts</li>
+                                <li>Comprehensive error handling and logging</li>
+                                <li>Results summary with detailed status reporting</li>
+                                <li>Support for both single hosts and cluster operations</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">PowerShell</span>
+                            <span class="tech-tag">VMware PowerCLI</span>
+                            <span class="tech-tag">HPE iLO</span>
+                            <span class="tech-tag">SSH</span>
+                            <span class="tech-tag">PuTTY</span>
+                        </div>
+                        <div class="project-details">
+                            <h4>Technical Implementation:</h4>
+                            <div class="implementation-grid">
+                                <div class="impl-item">
+                                    <i class="fas fa-server"></i>
+                                    <h5>vCenter Connection</h5>
+                                    <p>Secure connection to VMware vCenter with credential validation</p>
+                                </div>
+                                <div class="impl-item">
+                                    <i class="fas fa-network-wired"></i>
+                                    <h5>Host Management</h5>
+                                    <p>Automated retrieval and management of ESXi hosts in clusters</p>
+                                </div>
+                                <div class="impl-item">
+                                    <i class="fas fa-terminal"></i>
+                                    <h5>SSH Automation</h5>
+                                    <p>Remote command execution using plink.exe for host configuration</p>
+                                </div>
+                                <div class="impl-item">
+                                    <i class="fas fa-user-cog"></i>
+                                    <h5>Account Creation</h5>
+                                    <p>Automated application account setup for iLO and AMS integration</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-commands">
+                            <h4>Automated Commands:</h4>
+                            <div class="command-list">
+                                <div class="command-item">
+                                    <code>sut appaccount create -u &lt;user&gt; -p &lt;pass&gt;</code>
+                                    <span>Creates iLO application account</span>
+                                </div>
+                                <div class="command-item">
+                                    <code>sut -set mode=AutoDeploy</code>
+                                    <span>Sets iSUT mode to AutoDeploy</span>
+                                </div>
+                                <div class="command-item">
+                                    <code>/opt/amsdv/bin/amsdCli appaccount create</code>
+                                    <span>Creates AMS application account</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Vijayakannan-M/vijayakannan-m.github.io/blob/main/precheck-script/precheck.ps1" 
+                               target="_blank" class="btn btn-primary">
+                                <i class="fab fa-github"></i> View Source Code
+                            </a>
+                            <a href="https://github.com/Vijayakannan-M/vijayakannan-m.github.io/tree/main/precheck-script" 
+                               target="_blank" class="btn btn-outline">
+                                <i class="fas fa-folder"></i> Project Directory
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Portfolio Website</h3>
+                            <span class="project-status">Active</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                Multi-page responsive portfolio website built with modern web technologies, 
+                                showcasing professional projects and technical expertise.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">GitHub Pages</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://vijayakannan-m.github.io" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Site
+                            </a>
+                            <a href="https://github.com/Vijayakannan-M/vijayakannan-m.github.io" 
+                               target="_blank" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card upcoming">
+                        <div class="project-header">
+                            <h3>Infrastructure Monitoring Dashboard</h3>
+                            <span class="project-status">Planned</span>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                Upcoming project to develop a comprehensive monitoring dashboard for 
+                                VMware infrastructure with real-time health metrics and automated alerting.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">PowerShell</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">JSON</span>
+                            <span class="tech-tag">Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technologies">
+            <div class="container">
+                <h2>Technologies & Tools</h2>
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <h3>Scripting & Automation</h3>
+                        <div class="tech-items">
+                            <span class="tech-item">PowerShell</span>
+                            <span class="tech-item">PowerCLI</span>
+                            <span class="tech-item">Batch Scripts</span>
+                            <span class="tech-item">SSH</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h3>Infrastructure</h3>
+                        <div class="tech-items">
+                            <span class="tech-item">VMware vCenter</span>
+                            <span class="tech-item">ESXi</span>
+                            <span class="tech-item">HPE iLO</span>
+                            <span class="tech-item">Virtual Machines</span>
+                        </div>
+                    </div>
+                    <div class="tech-category">
+                        <h3>Development</h3>
+                        <div class="tech-items">
+                            <span class="tech-item">Git</span>
+                            <span class="tech-item">GitHub</span>
+                            <span class="tech-item">VS Code</span>
+                            <span class="tech-item">Documentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Vijayakannan M</h4>
+                    <p>IT Professional specializing in automation and infrastructure management.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Vijayakannan-M" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/vijayakannan-m" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vijayakannan M. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
