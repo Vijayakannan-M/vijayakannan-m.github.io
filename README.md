@@ -1,6 +1,6 @@
 # vijayakannan-m.github.io
 
-# precheck.ps1
+# [precheck.ps1](https://github.com/Vijayakannan-M/vijayakannan-m.github.io/blob/main/precheck-script/precheck.ps1)
 
 ## Overview
 This PowerShell script automates the process of connecting to a VMware vCenter server, retrieving a list of ESXi hosts in a specified cluster (or a single host), and running a series of commands on each host to create application accounts using HPE iLO credentials. It is designed for use in HPE/VMware environments where automated account setup and configuration is required.
